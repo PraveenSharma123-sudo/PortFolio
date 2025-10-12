@@ -1,0 +1,16 @@
+.text{
+    text-align: center;
+    margin:auto;
+     font-size: 1vmax;
+    background: linear-gradient(to right,rgb(192, 236, 112),rgb(88, 214, 249));
+    background-clip: text;
+    color: transparent;
+}
+@media (max-width:750px) {
+    .text{
+        /* flex-direction: column-reverse; */
+         width: 100%;
+        height: 10vh;
+    }
+    }
+    
