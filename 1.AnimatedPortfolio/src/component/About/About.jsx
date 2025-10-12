@@ -5,6 +5,7 @@ import mern from "../../assets/mern.png"
 import dsa from "../../assets/dsa.png"
 import java from "../../assets/java.png"
 import python from "../../assets/Python.jpeg"
+import lt from "../../assets/L&T.jpg"
 import {useGSAP} from "@gsap/react"
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
@@ -94,6 +95,8 @@ const About = () => {
       <div className='circle'></div>
       <div className='line'></div>
       <div className='circle'></div>
+      <div className='line'></div>
+      <div className='circle'></div>
     </div>
 
     <div className='aboutdetails'>
@@ -151,6 +154,24 @@ const About = () => {
           </li>
         </ul>
       </div>
+      <div className='Experience'>
+        <h1>Experience</h1>
+        <ul>
+          <li>
+            <span>COMPANY</span>: L&T
+          </li>
+          <li>
+            <span>POST</span>: DIPLOMA ENGINEER TRAINEE
+          </li>
+          <li>
+            <span>WORK</span>: Demonstrated proficiency in MS Excel for data analysis and reporting
+            <li>Developed understanding of HES to support engineering projects like smartmeter.</li>
+          </li>
+           <li>
+            <span>DURATION</span>: 1 YEARS
+          </li>
+        </ul>
+      </div>
     </div>
 
 
@@ -160,6 +181,7 @@ const About = () => {
    <Card title="JAVA" image={java}/>
    <Card title="DSA" image={dsa}/>
    <Card title="PYTHON" image={python}/>
+   <Card title="EXPERIENCE" image={lt}/>
     </div>
 
 
