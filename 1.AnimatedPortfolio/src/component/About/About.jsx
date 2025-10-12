@@ -154,7 +154,7 @@ const About = () => {
           </li>
         </ul>
       </div>
-      <div className='Experience'>
+      {/* <div className='Experience'>
         <h1>Experience</h1>
         <ul>
           <li>
@@ -171,7 +171,7 @@ const About = () => {
             <span>DURATION</span>: 1 YEARS
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
 
 
@@ -181,7 +181,7 @@ const About = () => {
    <Card title="JAVA" image={java}/>
    <Card title="DSA" image={dsa}/>
    <Card title="PYTHON" image={python}/>
-   <Card title="EXPERIENCE" image={lt}/>
+   {/* <Card title="EXPERIENCE" image={lt}/> */}
     </div>
 
 
